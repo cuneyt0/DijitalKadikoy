@@ -1,7 +1,8 @@
-import 'package:dkadikoy/view/HomePage.dart';
-import 'package:dkadikoy/view/deneme.dart';
+import 'package:dkadikoy/Deneme.dart';
+import 'package:dkadikoy/Denemeler/Giris.dart';
+import 'package:dkadikoy/view/HomePageContent/HomePage.dart';
 
-import 'package:dkadikoy/view/splash.dart';
+import 'package:dkadikoy/view/SplashContent/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: isLoading == false ? Splash() : HomePage()
+        home:Giris()//isLoading == false ? Splash() : HomePage()
      );
   }
 }

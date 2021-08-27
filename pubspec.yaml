@@ -29,20 +29,35 @@ dependencies:
   ##sliding_sheet: ^0.5.0
   ##extended_navbar_scaffold: ^1.0.2+1
   flutter_swiper_null_safety: ^1.0.2
-  material_floating_search_bar:
+  #material_floating_search_bar:
+  convex_bottom_bar: ^3.0.0
+  #flutter_textfield_autocomplete: ^1.0.2
+  sliding_sheet: ^0.5.0
+  image_picker: ^0.8.3+2
+  flutter_image_compress: ^1.1.0
+  image_cropper: ^1.4.1
+  sliding_panel_pro: ^1.0.0-nullsafety.3
+  adaptive_scrollbar: ^1.1.1
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+
   cupertino_icons: ^1.0.2
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+  flutter_native_splash: ^1.2.1
 
-# The following section is specific to Flutter.
+flutter_native_splash:
+  
+  background_image: asset/splash.png
+  android: true
+  ios: true
+
+
+
+
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -54,6 +69,10 @@ flutter:
   assets:
    - asset/gifs/Dijital.gif
    - asset/gifs/Dijital1.gif
+   - asset/splash.png
+   - asset/landingpage1.png
+   - asset/belediyelogo.jpg
+   - asset/landingpageone.png
    - images/family.png
    - images/brain.png
    - images/earthquake.png
@@ -64,6 +83,7 @@ flutter:
    - images/settings.png
    - images/speech-bubble.png
    - images/theater.png
+   - images/cuneyt.jpg
    - images/Swiper/img1.jpg
    - images/Swiper/img2.jpg
    - images/Swiper/img3.jpg

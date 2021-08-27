@@ -1,8 +1,8 @@
 
 
-import 'package:dkadikoy/view/HomePage.dart';
+import 'package:dkadikoy/view/HomePageContent/HomePage.dart';
 
-import 'package:dkadikoy/view/splash.dart';
+import 'package:dkadikoy/view/SplashContent/splash.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,28 +11,13 @@ class splashController extends GetxController{
 
   final isLoading=false.obs;
   List<String> UserName=[
-    "Cüneyt",
+    "Cüneyt AYKAÇ",
     "Ahmet",
     "Mehmet",
 
   ].obs;
-  RxList<Image>DrawerIcon=[
-   Image.asset("images/speech-bubble.png",),
-    Image.asset("images/k.png"),
-    Image.asset("images/settings.png"),
-    Image.asset("images/k.png"),
-    Image.asset("images/theater.png"),
-    Image.asset("images/heartbeat.png"),
-    Image.asset("images/leaf.png"),
-    Image.asset("images/family.png"),
-    Image.asset("images/running.png"),
-    Image.asset("images/brain.png"),
-    Image.asset("images/leaf.png"),
-    Image.asset("images/earthquake.png",),
 
-
-  ].obs;
-  List<String> DrawerContent=[
+  List<String> TextFormFieldSerach=[
     "MESAJLAR",
     "TRANSFERLER",
     "AYARLAR",
@@ -54,9 +39,9 @@ class splashController extends GetxController{
 
   @override
   void onInit() {
-   Future.delayed(Duration(seconds: 2),(){
+  /* Future.delayed(Duration(seconds: 2),(){
       Get.to(HomePage());
-    });
+    });*/
     // TODO: implement onInit
     super.onInit();
 
