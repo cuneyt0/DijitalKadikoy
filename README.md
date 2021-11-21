@@ -1,2 +1,2 @@
 # DijitalKadikoy
-Staj
+Dijital Kadıköy Uygulamasının klon Çalışması (Staj)
